@@ -1,0 +1,67 @@
+body {
+    font-family: "Istok Web", sans-serif;
+    background-image: url('https://images.pexels.com/photos/262713/pexels-photo-262713.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    margin: 0;
+}
+
+.h-pre{
+    font-size: larger;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    white-space: pre-wrap;
+}
+.peredtext{
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+.history{
+    background-color:rgba(233, 150, 122, 0.507);
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    width: 900px;
+    overflow-wrap: break-word;
+    margin-bottom: 20px;
+}
+
+.header{
+    display: flex;
+    justify-content: left;
+    align-items: center; 
+    margin: 0;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    background-color: rgba(207, 131, 100, 0.541);
+    height: 80px;
+}
+
+.sendbtn{
+    display: inline-block;
+    width: 90px;
+    padding: 10px 20px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.sendbtn:hover {
+    background-color: #45a049;
+}
+
+.last-element {
+    margin-left: auto;
+    margin-right: 10px;
+}
